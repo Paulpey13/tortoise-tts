@@ -79,26 +79,26 @@ The second part is about words analogy and how to find those using vector comput
      - `evaluation_file` (str): The path to the file used for evaluation.
 
 ### 10. `find_missing_words(analogies_text, model_text)`
-    - **Purpose**: Identifies words present in the analogies text but missing in the model text.
-    - **Parameters**:
+   - **Purpose**: Identifies words present in the analogies text but missing in the model text.
+   - **Parameters**:
       - `analogies_text` (str): Text containing word analogies.
       - `model_text` (str): Text from the word embeddings model.
 
 ### 11. `euclidean_distance(vec1, vec2)`
-    - **Purpose**: Computes the Euclidean distance between two vectors.
-    - **Parameters**:
+   - **Purpose**: Computes the Euclidean distance between two vectors.
+   - **Parameters**:
       - `vec1` (np.ndarray): The first vector.
       - `vec2` (np.ndarray): The second vector.
 
 ### 12. `find_analogy(analogies, embeddings)`
-    - **Purpose**: Finds the closest word to complete a word analogy from word embeddings.
-    - **Parameters**:
+   - **Purpose**: Finds the closest word to complete a word analogy from word embeddings.
+   - **Parameters**:
       - `analogies` (list of str): A list of word analogies.
       - `embeddings` (dict): A dictionary mapping words to their embeddings.
 
 ### 13. `find_analogy_10(analogies, embeddings)`
-    - **Purpose**: Finds the 10 closest words to complete a word analogy from word embeddings.
-    - **Parameters**:
+   - **Purpose**: Finds the 10 closest words to complete a word analogy from word embeddings.
+   - **Parameters**:
       - `analogies` (list of str): A list of word analogies.
       - `embeddings` (dict): A dictionary mapping words to their embeddings.
 
