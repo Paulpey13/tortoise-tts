@@ -103,3 +103,4 @@ The second part is about words analogy and how to find those using vector comput
       - `embeddings` (dict): A dictionary mapping words to their embeddings.
 
 ---
+ 
